@@ -1,0 +1,29 @@
+=== CodeMusings Theme Framework ===
+Contributors: royens
+Donate Link: http://www.codemusings.com
+Tags: HTML5 Theme, Theme Framework
+Requires at least: 3.1
+Tested up to: 3.2.1
+
+A WordPress theme framework using HTML5 and CSS3 used for developing new themes.
+
+== Description ==
+A basic WordPress theme used as a framework to create child themes. Theme is built using
+HTML5 and CSS3. As well there are some custom plugins, built-in SEO and other various features.
+
+== Installation ==
+1. Download the latest version of theme.
+1. Unzip the file.
+1. Upload the entire theme folder to the `/wp-content/themes/` directory.
+1. Activate the theme through the 'Appearance/Themes' menu in WordPress
+
+== Frequently Asked Questions ==
+
+== Screenshots ==
+
+== Changelog ==
+
+= 0.1 =
+Start of project
+
+== Upgrade Notice ==
