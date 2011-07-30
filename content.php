@@ -26,7 +26,7 @@
         <?php endif; ?>
     </header><!-- .entry-header -->
 
-    <?php is ( is_search() || is_archive() ) : // Only display excerpts for search and archives ?>
+    <?php if ( is_search() || is_archive() ) : // Only display excerpts for search and archives ?>
         <div class="entry-summary">
             <?php the_excerpt(); ?>
         </div><!-- .entry-summary -->
