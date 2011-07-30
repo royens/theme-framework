@@ -49,6 +49,9 @@ function cmframework_get_theme_option( $option ) {
 function cmframework_content_nav( $location ) {
 }
 
+function cmframework_posted_on() {
+}
+
 if ( ! function_exists( '_log' ) ) :
 function _log( $message ) {
     if ( WP_DEBUG === true ) {
