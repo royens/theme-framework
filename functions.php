@@ -46,6 +46,9 @@ function cmframework_get_theme_option( $option ) {
     return '*';
 }
 
+function cmframework_content_nav( $location ) {
+}
+
 if ( ! function_exists( '_log' ) ) :
 function _log( $message ) {
     if ( WP_DEBUG === true ) {
