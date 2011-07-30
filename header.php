@@ -77,3 +77,11 @@ wp_head(); ?>
 
         <nav id="access" role="navigation">
             <h3 class="assistive-text"><?php _e( 'Main menu', 'cmframework' ); ?></h3>
+            <div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'cmframework' ); ?>"><?php _e( 'Skip to primary content', 'cmframework' ); ?></a></div>
+            <div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'cmframework' ); ?>"><?php _e( 'Skip to secondary content', 'cmframework' ); ?></a></div>
+            <?php /* The main nav menu. If user doesn't create a menu falls back to wp_page_menu. */ ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+        </nav><!-- #access -->
+    </header><!-- #branding -->
+
+    <div id="main">
