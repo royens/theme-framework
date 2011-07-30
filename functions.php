@@ -39,6 +39,9 @@ function cmframework_setup() {
 
     // This theme uses Features Images for Custom Header images
     add_theme_support( 'post-thumbnails' );
+
+    // TODO: Remove this at some point in time.
+    define( 'META_SEPARATOR', '=' );
 }
 endif;
 
