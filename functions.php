@@ -41,6 +41,11 @@ function cmf_setup() {
     add_theme_support( 'post-thumbnails' );
 }
 endif;
+
+function cmf_get_theme_option( $option ) {
+    return '*';
+}
+
 if ( ! function_exists( '_log' ) ) :
 function _log( $message ) {
     if ( WP_DEBUG === true ) {
