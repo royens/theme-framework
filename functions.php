@@ -10,13 +10,13 @@
 /**
  * Run cmf_setup() when the after_setup_theme hook runs.
  */
-add_action( 'after_setup_theme', 'cmf_setup' );
+add_action( 'after_setup_theme', 'cmframework_setup' );
 
-if( ! function_exists( 'cmf_setup' ) ) :
+if( ! function_exists( 'cmframework_setup' ) ) :
 /**
  * @TODO Add comments
  */
-function cmf_setup() {
+function cmframework_setup() {
 
     /* Make framework available for translation
      * Translations should be added to the /languages/directory.
@@ -42,7 +42,7 @@ function cmf_setup() {
 }
 endif;
 
-function cmf_get_theme_option( $option ) {
+function cmframework_get_theme_option( $option ) {
     return '*';
 }
 

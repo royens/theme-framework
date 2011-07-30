@@ -29,7 +29,7 @@
 <?php 
 /* Define a constant that the user can set.
  */
-define( TITLE_SEP, cmf_get_theme_option( 'title_sep' ) );
+define( TITLE_SEP, cmframework_get_theme_option( 'title_sep' ) );
 /*
  * Print title based on page user is on.
  */
