@@ -13,7 +13,7 @@
 
 <?php get_header(); ?>
 
-        <div id="primary">
+        <div id="primary" class="g7 alpha">
             <div id="content" role="main">
 
                 <?php if ( have_posts() ) : ?>

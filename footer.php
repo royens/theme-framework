@@ -10,14 +10,14 @@
     
     </div><!-- #main -->
 
-    <footer id="colophon" role="contentinfo">
+    <footer id="colophon" class="g12" role="contentinfo">
 
         <?php get_sidebar( 'footer' ); ?>
 
-        <div id="site-generator">
+        <div id="site-generator" class="g6 alpha">
             <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'cmframework' ) ); ?>" title="<?php esc_attr_e( 'WordPress Publishing Platform', 'cmframework' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'cmframework' ), 'WordPress' ); ?></a>
         </div><!-- #site-generator -->
-        <div id="framework">
+        <div id="framework" class="g6 omega">
             <a href="<?php echo esc_url( 'http://www.codemusings.com/framework' ); ?>" title="<?php esc_attr_e( 'CodeMusings Framework for great WordPress Themes', 'cmframework' ); ?>"><?php print( __( 'Using the excellent CodeMusings Framework', 'cmframework' ) ); ?></a>
         </div><!-- #framework -->
     </footer>
